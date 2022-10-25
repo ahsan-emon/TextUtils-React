@@ -42,16 +42,11 @@ function App() {
       // document.title = 'TextUtils - Light Mode';
     }
   }
-  const redMode = () => {
-    document.body.style.backgroundColor = 'red';
-    document.body.style.color = 'red';
-    showAlert("Red mode has been enabled", "success");
-  }
 
   return (
     <>
       <Router>
-        <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} redMode={redMode} />
+        <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Switch>
           <div className="container mt-3">

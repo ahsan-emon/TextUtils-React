@@ -24,11 +24,6 @@ export default function Navbar(props) {
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form> */}
-            <div className="d-flex align-items-center">
-              <div className='blue-circle color-circle me-2'></div>
-              <div className='yellow-circle color-circle me-2'></div>
-              <div className='purple-circle color-circle me-2' onClick={props.redMode}></div>
-            </div>
             <div className="form-check form-switch ps-5">
               <input className="form-check-input" type="checkbox" onClick={props.toggleMode} role="switch" />
               <label className={`form-check-label text-${props.mode === 'light' ? 'dark' : 'light'}`}>Dark Mode</label>
