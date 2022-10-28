@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TextUtils-React/static/css/main.134d649c.css",
-    "main.js": "/TextUtils-React/static/js/main.261cbf0f.js",
+    "main.js": "/TextUtils-React/static/js/main.0756d2be.js",
     "static/media/contact-us-img.png": "/TextUtils-React/static/media/contact-us-img.72fc2008d09f010fdad2.png",
     "static/media/header-bg.png": "/TextUtils-React/static/media/header-bg.f54c70e39459e1839cb2.png",
     "static/media/about-us-img.png": "/TextUtils-React/static/media/about-us-img.57e4258778d49f2bab1a.png",
@@ -10,10 +10,10 @@
     "static/media/Metropolis-ExtraLight.otf": "/TextUtils-React/static/media/Metropolis-ExtraLight.d1784bd894f8e478ab9f.otf",
     "index.html": "/TextUtils-React/index.html",
     "main.134d649c.css.map": "/TextUtils-React/static/css/main.134d649c.css.map",
-    "main.261cbf0f.js.map": "/TextUtils-React/static/js/main.261cbf0f.js.map"
+    "main.0756d2be.js.map": "/TextUtils-React/static/js/main.0756d2be.js.map"
   },
   "entrypoints": [
     "static/css/main.134d649c.css",
-    "static/js/main.261cbf0f.js"
+    "static/js/main.0756d2be.js"
   ]
 }
