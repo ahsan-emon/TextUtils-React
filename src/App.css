@@ -684,6 +684,7 @@ main {
 /* contact us  */
 .contact-us {
   padding-top: 60px;
+  overflow: hidden;
 }
 .contact-left {
   background-image: url(./images/about-us-img.png);
