@@ -10,6 +10,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import TeamPico from './components/TeamPico';
+import ExpertiseSection from './components/ExpertiseSection';
+import AboutUs from './components/AboutUs';
+import FooterBar from './components/FooterBar';
+import ContactUs from './components/ContactUs';
+import Companies from './components/Companies';
 
 function App() {
   const [mode, setMode] = useState('light'); // whether dark mode is enabled or not
@@ -49,8 +55,19 @@ function App() {
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Switch>
+          <Route exact path="/" >
+            <TeamPico mode={mode} toggleMode={toggleMode} />
+            <ExpertiseSection mode={mode} toggleMode={toggleMode} />
+            <AboutUs mode={mode} toggleMode={toggleMode} />
+            <FooterBar mode={mode} toggleMode={toggleMode} />
+          </Route>
+          <Route exact path="/contactus" >
+            <ContactUs mode={mode} toggleMode={toggleMode} />
+            <Companies mode={mode} toggleMode={toggleMode} />
+            <FooterBar mode={mode} toggleMode={toggleMode} />
+          </Route>
           <div className="container mt-3">
-            <Route exact path="/" >
+            <Route exact path="/textform" >
               <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />
             </Route>
 

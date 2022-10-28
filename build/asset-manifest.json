@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/TextUtils-React/static/css/main.021b2667.css",
-    "main.js": "/TextUtils-React/static/js/main.35925554.js",
+    "main.css": "/TextUtils-React/static/css/main.fa6c4ae9.css",
+    "main.js": "/TextUtils-React/static/js/main.261cbf0f.js",
+    "static/media/contact-us-img.png": "/TextUtils-React/static/media/contact-us-img.72fc2008d09f010fdad2.png",
+    "static/media/header-bg.png": "/TextUtils-React/static/media/header-bg.f54c70e39459e1839cb2.png",
+    "static/media/about-us-img.png": "/TextUtils-React/static/media/about-us-img.57e4258778d49f2bab1a.png",
+    "static/media/about-us-women-img.png": "/TextUtils-React/static/media/about-us-women-img.a8918cf7951fa6d0789e.png",
+    "static/media/Metropolis-Regular.otf": "/TextUtils-React/static/media/Metropolis-Regular.67a1988d7b65b0aaa16d.otf",
+    "static/media/Metropolis-ExtraLight.otf": "/TextUtils-React/static/media/Metropolis-ExtraLight.d1784bd894f8e478ab9f.otf",
     "index.html": "/TextUtils-React/index.html",
-    "main.021b2667.css.map": "/TextUtils-React/static/css/main.021b2667.css.map",
-    "main.35925554.js.map": "/TextUtils-React/static/js/main.35925554.js.map"
+    "main.fa6c4ae9.css.map": "/TextUtils-React/static/css/main.fa6c4ae9.css.map",
+    "main.261cbf0f.js.map": "/TextUtils-React/static/js/main.261cbf0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.021b2667.css",
-    "static/js/main.35925554.js"
+    "static/css/main.fa6c4ae9.css",
+    "static/js/main.261cbf0f.js"
   ]
 }

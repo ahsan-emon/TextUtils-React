@@ -17,6 +17,12 @@ export default function Navbar(props) {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/contactus">Contact Us</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/textform">TextForm</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/about">{props.aboutText}</Link>
               </li>
             </ul>
@@ -26,7 +32,7 @@ export default function Navbar(props) {
             </form> */}
             <div className="form-check form-switch ps-5">
               <input className="form-check-input" type="checkbox" onClick={props.toggleMode} role="switch" />
-              <label className={`form-check-label text-${props.mode === 'light' ? 'dark' : 'light'}`}>Dark Mode</label>
+              <label className={`form-check-label text-${props.mode === 'light' ? 'dark' : 'light'}`}>Toggle Mode</label>
             </div>
           </div>
         </div>
